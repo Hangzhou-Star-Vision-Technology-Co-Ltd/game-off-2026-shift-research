@@ -1,0 +1,343 @@
+{
+  "flagship_hull_clean.webp": {
+    "sha256": "5b010f37f8802188e60c403c3f502c7b92ed40a61f66e83fac8eb2277070d8bf",
+    "bytes": 963318,
+    "chunks": [
+      {
+        "file": "asset-parts/flagship_hull_clean.00.part",
+        "sha256": "02866f6a4db5f44d20b6c496a2ee8b3d8b847f22904191adba998ff4138a199b",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/flagship_hull_clean.01.part",
+        "sha256": "aa8fc0c90b91011dd51d1d9c473350d826e67050316f14eb568e4dc4ab1ec360",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/flagship_hull_clean.02.part",
+        "sha256": "d8942a7cd797e53d8c9d1660dd8602e64e5e1036680f789e22691eb498726677",
+        "bytes": 63318
+      }
+    ]
+  },
+  "helper_ship_clean.webp": {
+    "sha256": "b6afc91bd1c346c046c494749a6af3b05a9750f3cdded90b014b06cbc8389bc3",
+    "bytes": 695946,
+    "chunks": [
+      {
+        "file": "asset-parts/helper_ship_clean.00.part",
+        "sha256": "2fd7e27163a37d1e81c19c026f76413446994267ee4b26be73173e3a0e708676",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/helper_ship_clean.01.part",
+        "sha256": "8b29740fec94c6b965ff19c28b1c44dc55e82623b6aa68014b4e7db031a2c13a",
+        "bytes": 245946
+      }
+    ]
+  },
+  "icon_cloth.webp": {
+    "sha256": "623bbc0e4b0f1cd86a6890ec0f7f290d1eb6bd817aecaeb5688161249a33f8de",
+    "bytes": 624380,
+    "chunks": [
+      {
+        "file": "asset-parts/icon_cloth.00.part",
+        "sha256": "b6a3c440ffb05cf483584e70bfb08ebce26b60d7a59f9f219d88b38d046d963f",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/icon_cloth.01.part",
+        "sha256": "56f8ca2b91797f5d1524aae12a06547c817418647745d946a3cdde1b370dfe33",
+        "bytes": 174380
+      }
+    ]
+  },
+  "icon_grain.webp": {
+    "sha256": "a65cf4b758c5155106b865e793c71dba98b1a4ca7c393d9f52a825511ef35c88",
+    "bytes": 746136,
+    "chunks": [
+      {
+        "file": "asset-parts/icon_grain.00.part",
+        "sha256": "232cd9ece430d462faac0e364d7f8392b9452b5bbd11db8b48aec35ef9b18886",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/icon_grain.01.part",
+        "sha256": "dd94c15ba67978e802e55bb242e3fd3bc20168d54997f301a2ce19a36caf3704",
+        "bytes": 296136
+      }
+    ]
+  },
+  "icon_helper.webp": {
+    "sha256": "559e44d495217f6f6c6209aad89d869bb99fdc323a103fb67f3c39c6c9922768",
+    "bytes": 808246,
+    "chunks": [
+      {
+        "file": "asset-parts/icon_helper.00.part",
+        "sha256": "1993a393aaa974b5004f1c38011d74c96e75605ad5b19e7472bfbfa126b6fa7a",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/icon_helper.01.part",
+        "sha256": "bd0c8cebc01fc4962e072b4bdded5fa66c2a3c5eeb02405dd3fe3b5e497344f7",
+        "bytes": 358246
+      }
+    ]
+  },
+  "icon_letter.webp": {
+    "sha256": "8ae07e207e0a930e05446f5bb2d9904bb6a7057ecb0b7c0152f9e95af1eab6f5",
+    "bytes": 830700,
+    "chunks": [
+      {
+        "file": "asset-parts/icon_letter.00.part",
+        "sha256": "9aa5f57aa375381d53bf2768080a1413f008e06a3d3c87c495ba9b66f10678e4",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/icon_letter.01.part",
+        "sha256": "884be101cf74a6e456f3433b7414c21db0104ef7e19cfd1331b4cdb2f8573df7",
+        "bytes": 380700
+      }
+    ]
+  },
+  "icon_steering.webp": {
+    "sha256": "6a0693f71abef7e3da24d1d59cfe5d488428d5ffeca6f30d4132bbb47c6934d9",
+    "bytes": 1214128,
+    "chunks": [
+      {
+        "file": "asset-parts/icon_steering.00.part",
+        "sha256": "173f73d75c534209d9697d39f1973b36fadef531204a6a54d4045067e7d16559",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/icon_steering.01.part",
+        "sha256": "8e48fc7c115646b34dabef6f326322a7716ea6f683431e995b8dc5ef594bb1e7",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/icon_steering.02.part",
+        "sha256": "fe2700cf055af93722eaf03ff599381a3cadbe27c6dd2c80160ee6a9e1b2b37d",
+        "bytes": 314128
+      }
+    ]
+  },
+  "icon_wood.webp": {
+    "sha256": "3b3375a081ea6b235fd58afe19e915fedd99503282390db69a73428902317cc1",
+    "bytes": 939214,
+    "chunks": [
+      {
+        "file": "asset-parts/icon_wood.00.part",
+        "sha256": "6d0888bbe3c62d1cdb2bc9007487575c0db3e1394e0999d5073321fb0728dfad",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/icon_wood.01.part",
+        "sha256": "e6aa973fc786c484c541be75ae755e141921a7589e3d947b07be6363c7aec378",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/icon_wood.02.part",
+        "sha256": "d27e5a676d0e89ee3bfef953e93596b12ad25490150f79b0f722cbe67805f118",
+        "bytes": 39214
+      }
+    ]
+  },
+  "ocean_original.webp": {
+    "sha256": "2525550848fc896b58c32ed84db94c463be42b58e6170e7b5bf045696d8f54c6",
+    "bytes": 1053064,
+    "chunks": [
+      {
+        "file": "asset-parts/ocean_original.00.part",
+        "sha256": "3b68e1447acdd589cd1362136440f4e7ba4a37cadd872dec132f8c63e1c456a6",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/ocean_original.01.part",
+        "sha256": "28d731974acd9ab3a54a42088b5e062f77700ecb923fe0a52e8d85bfae02f1b3",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/ocean_original.02.part",
+        "sha256": "78a7439e6638b7b71900f421f3e0838679641adb2c0512a1cc0a06e7f0d03150",
+        "bytes": 153064
+      }
+    ]
+  },
+  "port_genoa_clean.webp": {
+    "sha256": "f838d0f9d950ba311cfd9d3a106b2f43e673bfd72d95b28826a3e60721dff8e7",
+    "bytes": 2314490,
+    "chunks": [
+      {
+        "file": "asset-parts/port_genoa_clean.00.part",
+        "sha256": "432d701c4dc1de5b3f531544d976c0131bea64daba2764a8e026b2b80fb06980",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/port_genoa_clean.01.part",
+        "sha256": "f2b97c285ea96c164553b05132db91939f2be7b89fdadbc155d1d8697c7e0870",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/port_genoa_clean.02.part",
+        "sha256": "2dbcd1994a4e4ec894d1bfa8febcd35e63152effce28d6f3151c378381db01f8",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/port_genoa_clean.03.part",
+        "sha256": "cb24c0ad218c555d2328045c09f5f46b10dfbe0a49c1ab1cc7955be5542b545e",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/port_genoa_clean.04.part",
+        "sha256": "93024c7cbe67737e2c93d32c27e81f49e3bf80a4b92462889541adeb31f2ab13",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/port_genoa_clean.05.part",
+        "sha256": "dc760b6bd7eaf1668a6d706e5bf8fc8b99585d525aed1f0e425d28a20f4bcfca",
+        "bytes": 64490
+      }
+    ]
+  },
+  "port_marseille_clean.webp": {
+    "sha256": "6bb410fef52583356e782467d974dd2fe8505b1fcaf55a4eba59b182609a7dfc",
+    "bytes": 1708014,
+    "chunks": [
+      {
+        "file": "asset-parts/port_marseille_clean.00.part",
+        "sha256": "2a7002177a408cb4102e05c0ca89d8a3da5a62d5ac20ba28472144b3433e4f20",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/port_marseille_clean.01.part",
+        "sha256": "772c9b311dca729bf7299551184fb00ade0089e4bbadd34408627bd6a5188892",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/port_marseille_clean.02.part",
+        "sha256": "242cd3cff56ef4db99bf028cf2c50e8f03cf1af1126ab0d43a028c74039a574e",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/port_marseille_clean.03.part",
+        "sha256": "576c18b60bd9c12cd07f1698e757f80760281932d9566ba3abed67b3436f168c",
+        "bytes": 358014
+      }
+    ]
+  },
+  "port_palermo_clean.webp": {
+    "sha256": "b78ddcb9c490835fb73838f356dd0ac503ef0570f76d946c48ae205224e52da8",
+    "bytes": 2925240,
+    "chunks": [
+      {
+        "file": "asset-parts/port_palermo_clean.00.part",
+        "sha256": "10d310578ef5768d8f4d65b3dfdff009b319f541070f7db853f5e18c2024eedd",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/port_palermo_clean.01.part",
+        "sha256": "782ce85d54f84d7d247ef68641162a334a2bc7ae69128bf684f21f1a993440cb",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/port_palermo_clean.02.part",
+        "sha256": "454593bdda2843b48ce6c6800b4aded2154b834fd13bfa256682cb5c0946f8a3",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/port_palermo_clean.03.part",
+        "sha256": "6927b65a9d1c9c9a50934a2f23aae49f6c6deb6f106d9950ece79345228df1da",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/port_palermo_clean.04.part",
+        "sha256": "5802d75c8f648e6baf5aba5c116f9d344e921eed7d7a93ba1a6ec40875faa183",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/port_palermo_clean.05.part",
+        "sha256": "87086aaf66cf24c17c705d3145d4d4b6720bca6612b714f75d6b65fdcea652bf",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/port_palermo_clean.06.part",
+        "sha256": "663eedfbc44da7dfe5dab4e56ab5da3867dde464aad9d13fe7f2be772ff7332d",
+        "bytes": 225240
+      }
+    ]
+  },
+  "port_tunis_clean.webp": {
+    "sha256": "44d909059459501d852b0d4c14bf53baf327e05ce7467aaa4d5db4af08377898",
+    "bytes": 1614924,
+    "chunks": [
+      {
+        "file": "asset-parts/port_tunis_clean.00.part",
+        "sha256": "3fc1f9e6cc14b5e3318fc3455a8f5a2748b4c40728f5b4d06855cf10bc3fac68",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/port_tunis_clean.01.part",
+        "sha256": "8a312bcc3ad80b937a72aa4f70fe4da21bb094002b71fbea35acf87af735ea15",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/port_tunis_clean.02.part",
+        "sha256": "1486461a2948e3a74ca90067823aa7ef75757517ac2ce5321449d79122ab229f",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/port_tunis_clean.03.part",
+        "sha256": "045b77f46d1c0ed15dd4f94befd08b0fa3a15d2ecde090f4d00e064e2b432df9",
+        "bytes": 264924
+      }
+    ]
+  },
+  "reef_1.webp": {
+    "sha256": "a2dfb968cea2fb5d2c0b8aad41cad2fcb0bff6210d5bbdaed2b3d931bdfc33b2",
+    "bytes": 864450,
+    "chunks": [
+      {
+        "file": "asset-parts/reef_1.00.part",
+        "sha256": "0e85231604daaa3d610001b6ab1d2a7cacf9e47b2d9ed1abbcdf444c120a685c",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/reef_1.01.part",
+        "sha256": "bda2bd8082ff4cab25e25b44919db7db80c85d3e6f6847d3796d1872de36947e",
+        "bytes": 414450
+      }
+    ]
+  },
+  "reef_2.webp": {
+    "sha256": "7a21333682eb6e71468e401661338d4a96af59b4e8d95f54e3851b0f856057aa",
+    "bytes": 581340,
+    "chunks": [
+      {
+        "file": "asset-parts/reef_2.00.part",
+        "sha256": "1dab5b3ac98b8a22eae81692e404885190dcdf668555ae5e9dadf9aa9217d26f",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/reef_2.01.part",
+        "sha256": "46e6273661bdd0ef9f7b8ae50b61135790932845f667efddc9780ff7afaa6150",
+        "bytes": 131340
+      }
+    ]
+  },
+  "reef_3.webp": {
+    "sha256": "1e405867eb69eaa5a9014854e5f9c7d0e8a9b883269df4d43fe11eff9912fdbd",
+    "bytes": 671188,
+    "chunks": [
+      {
+        "file": "asset-parts/reef_3.00.part",
+        "sha256": "ceab835d3ef19a5d1906efd1b27b6adf15a20813da7f3f6d4f0e496aadeadea8",
+        "bytes": 450000
+      },
+      {
+        "file": "asset-parts/reef_3.01.part",
+        "sha256": "eea93b8a6e57b402167fe85dcc0ae00f0c6aa24ab81160b2f93e6f5cc77a6b4e",
+        "bytes": 221188
+      }
+    ]
+  }
+}

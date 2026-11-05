@@ -1,0 +1,136 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> blue-bay-shipping-shift@1.0.0 pretest
+> python3 scripts/restore-assets.py
+
+Ready: all 19 original-quality runtime images are available in assets/.
+
+> blue-bay-shipping-shift@1.0.0 test
+> node qa/core-regression.mjs index.html && node qa/release-check.mjs && node qa/navigation-regression.mjs
+
+PASS Exact original economic/physics core preserved
+PASS Fresh state and legacy v1 save load without migration
+PASS Accept locks price, debits source stock and reserves destination once
+PASS Stale quote, unknown quote and absent helper reject without mutation
+PASS Underway or moving ships cannot accept orders
+PASS Supply floor and saturated demand suppress cargo but preserve mail
+PASS Cancel restores reservation and stock, gives no reward, is idempotent
+PASS Cancel at sea rejected and production cannot overflow returned cargo
+PASS Settlement pays locked amount, releases stock and cycles exactly once
+PASS Mail pays flat income with no inventory or economic-cycle side effects
+PASS Purchases charge once, enforce funds and docking, reject unknown kinds
+PASS Helper carries five, pays wage, survives reload and settles only once
+PASS Concurrent flagship and helper reservations remain balanced
+PASS Rock collisions slow ship, cap damage at three, apply cooldown and preserve fee
+PASS Boundary collision clamps position and rescue retains order, damage and price
+PASS Loading blocks movement and large/negative dt cannot skip gameplay
+PASS Automatic docking requires sustained arrival, then produces one receipt
+PASS JSON save/reload preserves upgrades, settings, fleet and exact future simulation
+PASS Completed-save reload cannot duplicate previous income
+PASS Corrupt save rejected: unsupported version
+PASS Corrupt save rejected: negative money
+PASS Corrupt save rejected: fractional money
+PASS Corrupt save rejected: missing ports
+PASS Corrupt save rejected: invalid upgrade
+PASS Corrupt save rejected: invalid turnover
+PASS Corrupt save rejected: invalid ship port
+PASS Corrupt save rejected: negative stock
+PASS Corrupt save rejected: capacity overflow
+PASS Corrupt save rejected: orphan reservation
+PASS Corrupt save rejected: duplicate settlement
+PASS Corrupt save rejected: nonfinite coordinate
+PASS Corrupt in-flight save rejected: locked arithmetic
+PASS Corrupt in-flight save rejected: negative damage
+PASS Corrupt in-flight save rejected: wrong cargo quantity
+PASS Corrupt in-flight save rejected: same destination
+PASS Corrupt in-flight save rejected: settled active UID
+PASS Corrupt in-flight save rejected: missing reservation
+
+Core SHA-256: 665449aef18a73a891a356c416888688aa4968b9ea01e0a1bb2dc1b28a53a586
+37 passed; 0 failed.
+PASS Script 1 parses
+PASS Script 2 parses
+PASS Script 3 parses
+PASS 19 artwork records
+PASS Original provenance ocean_original.png
+PASS Runtime ocean_original.webp
+PASS Original provenance port_marseille_clean.png
+PASS Runtime port_marseille_clean.webp
+PASS Original provenance flagship_hull_clean.png
+PASS Runtime flagship_hull_clean.webp
+PASS Original provenance port_genoa_clean.png
+PASS Runtime port_genoa_clean.webp
+PASS Original provenance sail_billow.png
+PASS Runtime sail_billow.webp
+PASS Original provenance port_tunis_clean.png
+PASS Runtime port_tunis_clean.webp
+PASS Original provenance port_palermo_clean.png
+PASS Runtime port_palermo_clean.webp
+PASS Original provenance helper_ship_clean.png
+PASS Runtime helper_ship_clean.webp
+PASS Original provenance reef_1.png
+PASS Runtime reef_1.webp
+PASS Original provenance icon_cloth.png
+PASS Runtime icon_cloth.webp
+PASS Original provenance reef_2.png
+PASS Runtime reef_2.webp
+PASS Original provenance icon_grain.png
+PASS Runtime icon_grain.webp
+PASS Original provenance reef_3.png
+PASS Runtime reef_3.webp
+PASS Original provenance icon_letter.png
+PASS Runtime icon_letter.webp
+PASS Original provenance icon_steering.png
+PASS Runtime icon_steering.webp
+PASS Original provenance icon_sail.png
+PASS Runtime icon_sail.webp
+PASS Original provenance icon_helper.png
+PASS Runtime icon_helper.webp
+PASS Original provenance icon_wood.png
+PASS Runtime icon_wood.webp
+PASS Original provenance sail_gold.png
+PASS Runtime sail_gold.webp
+PASS No external runtime fetches or resources
+PASS Unique static IDs
+PASS Fresh save compatible
+PASS Wrapper export compatible
+PASS Reject badRoot
+PASS Reject badMoney
+PASS Reject badSetting
+PASS Reject badPort
+PASS Reject badStable
+PASS Reject badVolume
+PASS Reachable economic voyage 1
+PASS Reachable economic voyage 2
+PASS Reachable economic voyage 3
+PASS Reachable economic voyage 4
+PASS Reachable economic voyage 5
+PASS Reachable economic voyage 6
+PASS Reachable economic voyage 7
+PASS Reachable economic voyage 8
+PASS Reachable economic voyage 9
+PASS Reachable economic voyage 10
+PASS Reachable economic voyage 11
+PASS Reachable economic voyage 12
+PASS Ending reached with four ports and two stable shortages
+PASS Ending gives no repeat award
+PASS Continues after completion
+PASS Reject corrupt cargoGood
+PASS Reject corrupt cargoQuantity
+PASS Reject corrupt receiptHTML
+PASS Reject corrupt receiptMoney
+PASS Reject corrupt receiptUnknown
+
+72 passed; 0 failed. These are code, integrity and model tests; not browser/human pacing tests.
+PASS 马赛->热那亚: 23.0s, no collisions
+PASS 热那亚->马赛: 23.0s, no collisions
+PASS 热那亚->巴勒莫: 20.2s, no collisions
+PASS 巴勒莫->热那亚: 20.2s, no collisions
+SKIP 2->3: no dispatch offered
+SKIP 3->2: no dispatch offered
+PASS 突尼斯->马赛: 20.1s, no collisions
+PASS 马赛->突尼斯: 20.1s, no collisions
+PASS 热那亚->突尼斯: 25.0s, no collisions
+PASS 突尼斯->热那亚: 25.0s, no collisions
+
+8 passed; 0 failed. Simulated inputs only, no teleport/direct settlement; not human pacing.

@@ -1,0 +1,14 @@
+{
+  "name": "blue-bay-shipping-shift",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Offline shipping game with delivery-driven market shifts",
+  "scripts": {
+    "test": "node qa/core-regression.mjs index.html && node qa/release-check.mjs && node qa/navigation-regression.mjs",
+    "build": "python3 scripts/build.py",
+    "pretest": "python3 scripts/restore-assets.py"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

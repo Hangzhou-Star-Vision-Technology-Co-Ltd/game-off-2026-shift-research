@@ -1,0 +1,192 @@
+{
+  "oceanBackdrop": {
+    "source": "Jimeng",
+    "file": "ocean_original.png",
+    "sha256": "49b5c5a02d11b071b8bba0a77730c5181604a12a9429195f565f46e464781ecf",
+    "status": "preview-not-final",
+    "pixel_edits": "none",
+    "runtime_file": "ocean_original.webp",
+    "runtime_sha256": "2525550848fc896b58c32ed84db94c463be42b58e6170e7b5bf045696d8f54c6",
+    "encoding": "WebP lossless; exact RGBA equality verified"
+  },
+  "marseille": {
+    "source": "Jimeng",
+    "file": "port_marseille_clean.png",
+    "sha256": "550af2a4de9d8d46cc59dae72060047bc72ba9891c4c83799f9811267d2aeea5",
+    "status": "preview-not-final",
+    "pixel_edits": "none",
+    "runtime_file": "port_marseille_clean.webp",
+    "runtime_sha256": "6bb410fef52583356e782467d974dd2fe8505b1fcaf55a4eba59b182609a7dfc",
+    "encoding": "WebP lossless; exact RGBA equality verified"
+  },
+  "flagshipHull": {
+    "source": "Jimeng",
+    "file": "flagship_hull_clean.png",
+    "sha256": "8c40bad5fcacc54b22e2046c7b82dbc8f86c09ffd7831d48bd63c4e2d33fba4e",
+    "status": "preview-not-final",
+    "pixel_edits": "none",
+    "runtime_file": "flagship_hull_clean.webp",
+    "runtime_sha256": "5b010f37f8802188e60c403c3f502c7b92ed40a61f66e83fac8eb2277070d8bf",
+    "encoding": "WebP lossless; exact RGBA equality verified"
+  },
+  "genoa": {
+    "source": "Jimeng",
+    "file": "port_genoa_clean.png",
+    "sha256": "573d9ee9fb338e4b40a290daf822014e382265bb70517dc10f41dee356731dcf",
+    "status": "preview-not-final",
+    "pixel_edits": "none",
+    "runtime_file": "port_genoa_clean.webp",
+    "runtime_sha256": "f838d0f9d950ba311cfd9d3a106b2f43e673bfd72d95b28826a3e60721dff8e7",
+    "encoding": "WebP lossless; exact RGBA equality verified"
+  },
+  "sailBillow": {
+    "source": "Jimeng",
+    "file": "sail_billow.png",
+    "sha256": "6056ebf367ad03871062d66bdecc412b1ea0360b0b38161b3c1c7e939c782f4f",
+    "status": "preview-not-final",
+    "pixel_edits": "none",
+    "runtime_file": "sail_billow.webp",
+    "runtime_sha256": "98c7628c8aea655a552fc087345ffc40d8c0e4ed9bceb599b1eea490fed05cdb",
+    "encoding": "WebP lossless; exact RGBA equality verified"
+  },
+  "tunis": {
+    "source": "Jimeng",
+    "file": "port_tunis_clean.png",
+    "sha256": "a465e8f583b9ce35f093128913fdca70eec926a9280ed763fe55ff14fe6cb92f",
+    "status": "preview-not-final",
+    "pixel_edits": "none",
+    "runtime_file": "port_tunis_clean.webp",
+    "runtime_sha256": "44d909059459501d852b0d4c14bf53baf327e05ce7467aaa4d5db4af08377898",
+    "encoding": "WebP lossless; exact RGBA equality verified"
+  },
+  "palermo": {
+    "source": "Jimeng",
+    "file": "port_palermo_clean.png",
+    "sha256": "fec0809046b7f3ae081967387c5f339309bd3fb19a07dcfe72e0609faea0d0b0",
+    "status": "preview-not-final",
+    "pixel_edits": "none",
+    "runtime_file": "port_palermo_clean.webp",
+    "runtime_sha256": "b78ddcb9c490835fb73838f356dd0ac503ef0570f76d946c48ae205224e52da8",
+    "encoding": "WebP lossless; exact RGBA equality verified"
+  },
+  "helperShip": {
+    "source": "Jimeng",
+    "file": "helper_ship_clean.png",
+    "sha256": "16b0e913cdb53a9a96a9bc31db3e9adbbb9f1b96d8086ab727228f7d691a5f5c",
+    "status": "preview-not-final",
+    "pixel_edits": "none",
+    "runtime_file": "helper_ship_clean.webp",
+    "runtime_sha256": "b6afc91bd1c346c046c494749a6af3b05a9750f3cdded90b014b06cbc8389bc3",
+    "encoding": "WebP lossless; exact RGBA equality verified"
+  },
+  "reefA": {
+    "source": "Jimeng",
+    "file": "reef_1.png",
+    "sha256": "09a6a968b12186dd0e39f98b80ed19bd2869c66b2a324778cd57dcda936c38ce",
+    "status": "preview-not-final",
+    "pixel_edits": "none",
+    "runtime_file": "reef_1.webp",
+    "runtime_sha256": "a2dfb968cea2fb5d2c0b8aad41cad2fcb0bff6210d5bbdaed2b3d931bdfc33b2",
+    "encoding": "WebP lossless; exact RGBA equality verified"
+  },
+  "cargoTextile": {
+    "source": "Jimeng",
+    "file": "icon_cloth.png",
+    "sha256": "af665eafc47e6ed01512b881e900fc4037133a1afe1ade9210c07429fead12fa",
+    "status": "preview-not-final",
+    "pixel_edits": "none",
+    "runtime_file": "icon_cloth.webp",
+    "runtime_sha256": "623bbc0e4b0f1cd86a6890ec0f7f290d1eb6bd817aecaeb5688161249a33f8de",
+    "encoding": "WebP lossless; exact RGBA equality verified"
+  },
+  "reefB": {
+    "source": "Jimeng",
+    "file": "reef_2.png",
+    "sha256": "fc0e87500f4d5fb2cbe53903add2fcac6b59d378d052ab7e097b3cc9013c14d2",
+    "status": "preview-not-final",
+    "pixel_edits": "none",
+    "runtime_file": "reef_2.webp",
+    "runtime_sha256": "7a21333682eb6e71468e401661338d4a96af59b4e8d95f54e3851b0f856057aa",
+    "encoding": "WebP lossless; exact RGBA equality verified"
+  },
+  "cargoGrain": {
+    "source": "Jimeng",
+    "file": "icon_grain.png",
+    "sha256": "93b7cac2cd71b9ea693de147d8d992618926579acf672a4c3f90d6d5c3e9dc66",
+    "status": "preview-not-final",
+    "pixel_edits": "none",
+    "runtime_file": "icon_grain.webp",
+    "runtime_sha256": "a65cf4b758c5155106b865e793c71dba98b1a4ca7c393d9f52a825511ef35c88",
+    "encoding": "WebP lossless; exact RGBA equality verified"
+  },
+  "reefC": {
+    "source": "Jimeng",
+    "file": "reef_3.png",
+    "sha256": "6d3529b45c1d75ee886495c634f5f8fcfa9041c45bdb9230f424558f6797ce50",
+    "status": "preview-not-final",
+    "pixel_edits": "none",
+    "runtime_file": "reef_3.webp",
+    "runtime_sha256": "1e405867eb69eaa5a9014854e5f9c7d0e8a9b883269df4d43fe11eff9912fdbd",
+    "encoding": "WebP lossless; exact RGBA equality verified"
+  },
+  "mailIcon": {
+    "source": "Jimeng",
+    "file": "icon_letter.png",
+    "sha256": "0b570fc7d7d10f3b9a5d27fd094a409e7f847cee2f4a5da23f9723291274808a",
+    "status": "preview-not-final",
+    "pixel_edits": "none",
+    "runtime_file": "icon_letter.webp",
+    "runtime_sha256": "8ae07e207e0a930e05446f5bb2d9904bb6a7057ecb0b7c0152f9e95af1eab6f5",
+    "encoding": "WebP lossless; exact RGBA equality verified"
+  },
+  "rudderIcon": {
+    "source": "Jimeng",
+    "file": "icon_steering.png",
+    "sha256": "1dd9d7db3db09a042afccf834adf1435daedeb2533e28b423ddc17461b148b9c",
+    "status": "preview-not-final",
+    "pixel_edits": "none",
+    "runtime_file": "icon_steering.webp",
+    "runtime_sha256": "6a0693f71abef7e3da24d1d59cfe5d488428d5ffeca6f30d4132bbb47c6934d9",
+    "encoding": "WebP lossless; exact RGBA equality verified"
+  },
+  "sailIcon": {
+    "source": "Jimeng",
+    "file": "icon_sail.png",
+    "sha256": "fc341ecb20bb0ee8632f198f31624aa5131db8bc78b0cbccfdfa0dbe82270fc9",
+    "status": "preview-not-final",
+    "pixel_edits": "none",
+    "runtime_file": "icon_sail.webp",
+    "runtime_sha256": "2a84f168436aa5c3a85ee0e1364cc997700e769a5c22dc625cdd2a182a27363d",
+    "encoding": "WebP lossless; exact RGBA equality verified"
+  },
+  "fleetIcon": {
+    "source": "Jimeng",
+    "file": "icon_helper.png",
+    "sha256": "98c0e4a5b33149c03953b4d99c9e122b802a386db971a8c87b0fc52f79833fbe",
+    "status": "preview-not-final",
+    "pixel_edits": "none",
+    "runtime_file": "icon_helper.webp",
+    "runtime_sha256": "559e44d495217f6f6c6209aad89d869bb99fdc323a103fb67f3c39c6c9922768",
+    "encoding": "WebP lossless; exact RGBA equality verified"
+  },
+  "cargoTimber": {
+    "source": "Jimeng",
+    "file": "icon_wood.png",
+    "sha256": "6f836b63fe5713b5494a6e8272707479b48819f51f39da279ef8795310ccfd05",
+    "status": "preview-not-final",
+    "pixel_edits": "none",
+    "runtime_file": "icon_wood.webp",
+    "runtime_sha256": "3b3375a081ea6b235fd58afe19e915fedd99503282390db69a73428902317cc1",
+    "encoding": "WebP lossless; exact RGBA equality verified"
+  },
+  "sailGold": {
+    "source": "Jimeng",
+    "file": "sail_gold.png",
+    "sha256": "b29d345bfd1887e19ea159d9107fd70d0ed401055a78fc9da0be36c6a28ab8b5",
+    "status": "preview-not-final",
+    "pixel_edits": "none",
+    "runtime_file": "sail_gold.webp",
+    "runtime_sha256": "9be535e1f75accb61dbddd25afcf241d79c87c17f241f1583517a8a2c2145974",
+    "encoding": "WebP lossless; exact RGBA equality verified"
+  }
+}

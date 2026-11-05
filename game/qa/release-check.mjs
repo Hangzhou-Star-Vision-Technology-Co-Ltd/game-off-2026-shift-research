@@ -1,0 +1,19 @@
+import fs from 'node:fs';import path from 'node:path';import vm from 'node:vm';import assert from 'node:assert/strict';import{createHash}from'node:crypto';import{fileURLToPath}from'node:url';
+const root=fileURLToPath(new URL('..',import.meta.url)),html=fs.readFileSync(path.join(root,'index.html'),'utf8'),scripts=[...html.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/g)],ctx=vm.createContext({});let passed=0,failed=0;
+function test(name,f){try{f();console.log('PASS '+name);passed++;}catch(e){console.error('FAIL '+name+': '+e.message);failed++;}}
+for(const[i,s]of scripts.entries())test('Script '+(i+1)+' parses',()=>new vm.Script(s[1]));vm.runInContext(scripts[0][1],ctx);vm.runInContext(scripts[1][1],ctx);const {Game}=ctx.SailCore,{progress,validateSave}=ctx.SailJourney;const plain=x=>JSON.parse(JSON.stringify(x));
+const manifest=JSON.parse(fs.readFileSync(path.join(root,'素材来源.json')));
+test('19 artwork records',()=>assert.equal(Object.keys(manifest).length,19));
+for(const v of Object.values(manifest)){test('Original provenance '+v.file,()=>assert.match(v.sha256,/^[a-f0-9]{64}$/));test('Runtime '+v.runtime_file,()=>assert.equal(createHash('sha256').update(fs.readFileSync(path.join(root,'assets',v.runtime_file))).digest('hex'),v.runtime_sha256));}
+test('No external runtime fetches or resources',()=>{assert.ok(!/(?:src|href)=["']https?:\/\//i.test(html));assert.ok(!/fetch\s*\(|XMLHttpRequest|WebSocket|sendBeacon/.test(html));});
+test('Unique static IDs',()=>{const ids=[...html.split('<script>')[0].matchAll(/\bid="([^"]+)"/g)].map(x=>x[1]);assert.equal(ids.length,new Set(ids).size);});
+test('Fresh save compatible',()=>assert.deepEqual(plain(validateSave(new Game().s).s),plain(new Game().s)));
+test('Wrapper export compatible',()=>assert.equal(validateSave({format:'blue-bay-shipping',edition:'1.0.0',game:new Game().s}).s.money,40));
+for(const [name,fn]of Object.entries({badRoot:s=>null,badMoney:s=>(s.money=-1,s),badSetting:s=>(s.settings.sound='yes',s),badPort:s=>(s.visited=[8],s),badStable:s=>(s.stable=['<script>'],s),badVolume:s=>(s.settings.volume=101,s)}))test('Reject '+name,()=>assert.throws(()=>validateSave(fn(plain(new Game().s)))));
+let g=new Game();const route=[[1,'cargo'],[2,'cargo'],[1,'cargo'],[0,'cargo'],[1,'cargo'],[2,'cargo'],[1,'mail'],[0,'cargo'],[1,'cargo'],[3,'cargo'],[0,'mail'],[1,'cargo']];
+route.forEach(([to,type],i)=>test('Reachable economic voyage '+(i+1),()=>{const o=g.orders().find(o=>o.to===to&&o.type===type);assert.ok(o);assert.equal(g.accept(o.id).ok,true);g.settle(g.s.ship);if(i===0)assert.equal(g.buy('sail').ok,true);if(i===8){assert.equal(g.buy('helper').ok,true);const mail=g.orders(g.s.helper.port,true).find(o=>o.type==='mail');g.accept(mail.id,true);for(let t=0;t<962;t++)g.step(.05,{});assert.equal(g.s.helperDeliveries,1);assert.equal(g.s.helper.order,null);}g=validateSave(plain(g.s));}));
+test('Ending reached with four ports and two stable shortages',()=>{assert.equal(progress(g.s).done,true);assert.equal(g.s.money,130);assert.equal(g.s.deliveries,12);assert.equal(g.s.helperDeliveries,1);});
+test('Ending gives no repeat award',()=>{const before=JSON.stringify(g.s);for(let i=0;i<30;i++)progress(g.s);assert.equal(JSON.stringify(g.s),before);});
+test('Continues after completion',()=>assert.equal(g.accept(g.orders()[0].id).ok,true));
+for(const [name,mutate]of Object.entries({cargoGood:s=>{s.history[0].good=-1},cargoQuantity:s=>{s.history[0].q=0},receiptHTML:s=>{s.history[0].seconds='<img src=x onerror=alert(1)>'},receiptMoney:s=>{s.history[0].net++},receiptUnknown:s=>{s.history[0].uid=999}}))test('Reject corrupt '+name,()=>{const s=plain(g.s);mutate(s);assert.throws(()=>validateSave(s));});
+console.log(`\n${passed} passed; ${failed} failed. These are code, integrity and model tests; not browser/human pacing tests.`);if(failed)process.exitCode=1;

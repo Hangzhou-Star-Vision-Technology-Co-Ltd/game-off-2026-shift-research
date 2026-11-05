@@ -1,0 +1,4 @@
+PASS Corrupt source part rejected before writing runtime image
+PASS Valid source restored to expected SHA-256
+PASS Missing unchunked runtime asset rejected
+PASS All 19 runtime images verified after recovery
